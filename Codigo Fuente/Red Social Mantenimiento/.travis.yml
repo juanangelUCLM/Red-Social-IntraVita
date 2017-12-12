@@ -1,0 +1,17 @@
+language: java
+jdk:
+ - oraclejdk8
+
+deploy:
+ provider: heroku
+ api_key:
+  secure: e109a861-ecbd-4a0c-9653-c650019d489a
+ app: intravita-g1-maintenance-g4
+ on:
+  repo: jmdr7494/RedSocialMantenimiento
+  branch: master
+  
+notifications:
+  slack:
+   rooms:
+     - intravita-g4:bP2upw24nMMo5wMz9z0fViKn#mantenimiento

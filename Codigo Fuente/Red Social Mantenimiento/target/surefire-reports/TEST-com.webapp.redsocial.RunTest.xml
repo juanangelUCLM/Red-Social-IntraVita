@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="88" failures="0" name="com.webapp.redsocial.RunTest" time="0.046" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DSoftware\git"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\DSoftware\git"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DSOFTW~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\DSoftware\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5743410770267926592.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\DSoftware\AppData\Roaming\npm;C:\Users\DSoftware\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\DSoftware"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="DSoftware"/>
+    <property name="java.class.path" value="/C:/Users/DSoftware/eclipse/java-oxygen/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.8.1.20170728-1531/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_121"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\DSoftware\git\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Given Usuario conectado para eliminar un amigo                          " name="Given Usuario conectado para eliminar un amigo                          " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; borra a  &quot;receptor@hotmail.com&quot;                           " name="When &quot;emisor@hotmail.com&quot; borra a  &quot;receptor@hotmail.com&quot;                           " time="0"/>
+  <testcase classname="Then Borrar de amigos                            " name="Then Borrar de amigos                            " time="0.015"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                         " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                         " time="0.015"/>
+  <testcase classname="Given Usuario conectado para eliminar un amigo                              " name="Given Usuario conectado para eliminar un amigo                              " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; borra a  &quot;receptor2@hotmail.com&quot;                               " name="When &quot;emisor2@hotmail.com&quot; borra a  &quot;receptor2@hotmail.com&quot;                               " time="0"/>
+  <testcase classname="Then Borrar de amigos                                " name="Then Borrar de amigos                                " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                             " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                             " time="0"/>
+  <testcase classname="Given Usuario conectado para eliminar un amigo                                    " name="Given Usuario conectado para eliminar un amigo                                    " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; intenta borrar a &quot;receptor@hotmail.com&quot; pero no son amigos                                     " name="When &quot;emisor@hotmail.com&quot; intenta borrar a &quot;receptor@hotmail.com&quot; pero no son amigos                                     " time="0"/>
+  <testcase classname="Then Mensaje de error al borrado                                      " name="Then Mensaje de error al borrado                                      " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                   " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                   " time="0"/>
+  <testcase classname="Given Usuario conectado para eliminar un amigo                                        " name="Given Usuario conectado para eliminar un amigo                                        " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; intenta borrar a &quot;receptor2@hotmail.com&quot; pero no son amigos                                         " name="When &quot;emisor2@hotmail.com&quot; intenta borrar a &quot;receptor2@hotmail.com&quot; pero no son amigos                                         " time="0"/>
+  <testcase classname="Then Mensaje de error al borrado                                          " name="Then Mensaje de error al borrado                                          " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                       " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                       " time="0"/>
+  <testcase classname="Given Un usuario y password para login     " name="Given Un usuario y password para login     " time="0"/>
+  <testcase classname="When &quot;asdf@gmail.com&quot;  y &quot;1234&quot; se quiere loguear      " name="When &quot;asdf@gmail.com&quot;  y &quot;1234&quot; se quiere loguear      " time="0"/>
+  <testcase classname="Then se loguea correctamente       " name="Then se loguea correctamente       " time="0"/>
+  <testcase classname="| &quot;asdf@gmail.com&quot; | &quot;1234&quot; |    " name="| &quot;asdf@gmail.com&quot; | &quot;1234&quot; |    " time="0"/>
+  <testcase classname="Given Un usuario y password para login         " name="Given Un usuario y password para login         " time="0"/>
+  <testcase classname="When &quot;fernycozar@hotmail.com&quot;  y &quot;supersecreto&quot; se quiere loguear          " name="When &quot;fernycozar@hotmail.com&quot;  y &quot;supersecreto&quot; se quiere loguear          " time="0"/>
+  <testcase classname="Then se loguea correctamente           " name="Then se loguea correctamente           " time="0"/>
+  <testcase classname="| &quot;fernycozar@hotmail.com&quot; | &quot;supersecreto&quot; |        " name="| &quot;fernycozar@hotmail.com&quot; | &quot;supersecreto&quot; |        " time="0"/>
+  <testcase classname="Given Un usuario y password para login               " name="Given Un usuario y password para login               " time="0"/>
+  <testcase classname="When &quot;meloinvento		&quot;  y &quot;1asdfasdf4&quot; se quiere loguear                " name="When &quot;meloinvento		&quot;  y &quot;1asdfasdf4&quot; se quiere loguear                " time="0"/>
+  <testcase classname="Then no consigue loguearse                 " name="Then no consigue loguearse                 " time="0"/>
+  <testcase classname="| &quot;meloinvento		&quot; | &quot;1asdfasdf4&quot; |              " name="| &quot;meloinvento		&quot; | &quot;1asdfasdf4&quot; |              " time="0"/>
+  <testcase classname="Given Un usuario y password para login                   " name="Given Un usuario y password para login                   " time="0"/>
+  <testcase classname="When &quot;fasdfasdfasdfasdfasdfa&quot;  y &quot;asdfasdfasdfasdf&quot; se quiere loguear                    " name="When &quot;fasdfasdfasdfasdfasdfa&quot;  y &quot;asdfasdfasdfasdf&quot; se quiere loguear                    " time="0"/>
+  <testcase classname="Then no consigue loguearse                     " name="Then no consigue loguearse                     " time="0"/>
+  <testcase classname="| &quot;fasdfasdfasdfasdfasdfa&quot; | &quot;asdfasdfasdfasdf&quot; |                  " name="| &quot;fasdfasdfasdfasdfasdfa&quot; | &quot;asdfasdfasdfasdf&quot; |                  " time="0"/>
+  <testcase classname="Given Usuario conectado para aceptar                                               " name="Given Usuario conectado para aceptar                                               " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; es aceptado por &quot;receptor@hotmail.com&quot;                                                " name="When &quot;emisor@hotmail.com&quot; es aceptado por &quot;receptor@hotmail.com&quot;                                                " time="0"/>
+  <testcase classname="Then Aceptar como amigo                                                 " name="Then Aceptar como amigo                                                 " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                              " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                              " time="0"/>
+  <testcase classname="Given Usuario conectado para aceptar                                                   " name="Given Usuario conectado para aceptar                                                   " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; es aceptado por &quot;receptor2@hotmail.com&quot;                                                    " name="When &quot;emisor2@hotmail.com&quot; es aceptado por &quot;receptor2@hotmail.com&quot;                                                    " time="0"/>
+  <testcase classname="Then Aceptar como amigo                                                     " name="Then Aceptar como amigo                                                     " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                  " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                  " time="0"/>
+  <testcase classname="Given Usuario conectado para aceptar                                                         " name="Given Usuario conectado para aceptar                                                         " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; es aceptado por &quot;receptor@hotmail.com&quot; pero da error por no envio de solicitud                                                          " name="When &quot;emisor@hotmail.com&quot; es aceptado por &quot;receptor@hotmail.com&quot; pero da error por no envio de solicitud                                                          " time="0"/>
+  <testcase classname="Then Mensaje de error a la aceptacion                                                           " name="Then Mensaje de error a la aceptacion                                                           " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                        " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                        " time="0"/>
+  <testcase classname="Given Usuario conectado para aceptar                                                             " name="Given Usuario conectado para aceptar                                                             " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; es aceptado por &quot;receptor2@hotmail.com&quot; pero da error por no envio de solicitud                                                              " name="When &quot;emisor2@hotmail.com&quot; es aceptado por &quot;receptor2@hotmail.com&quot; pero da error por no envio de solicitud                                                              " time="0"/>
+  <testcase classname="Then Mensaje de error a la aceptacion                                                               " name="Then Mensaje de error a la aceptacion                                                               " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                            " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                            " time="0"/>
+  <testcase classname="Given Usuario conectado para enviar solicitud                                                                    " name="Given Usuario conectado para enviar solicitud                                                                    " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; quiere enviar solicitud a &quot;receptor@hotmail.com&quot;                                                                     " name="When &quot;emisor@hotmail.com&quot; quiere enviar solicitud a &quot;receptor@hotmail.com&quot;                                                                     " time="0"/>
+  <testcase classname="Then Envio solicitud al segundo                                                                      " name="Then Envio solicitud al segundo                                                                      " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                   " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                   " time="0"/>
+  <testcase classname="Given Usuario conectado para enviar solicitud                                                                        " name="Given Usuario conectado para enviar solicitud                                                                        " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; quiere enviar solicitud a &quot;receptor2@hotmail.com&quot;                                                                         " name="When &quot;emisor2@hotmail.com&quot; quiere enviar solicitud a &quot;receptor2@hotmail.com&quot;                                                                         " time="0"/>
+  <testcase classname="Then Envio solicitud al segundo                                                                          " name="Then Envio solicitud al segundo                                                                          " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                       " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                       " time="0"/>
+  <testcase classname="Given Usuario conectado para enviar solicitud                                                                              " name="Given Usuario conectado para enviar solicitud                                                                              " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; quiere enviar solicitud a &quot;receptor@hotmail.com&quot; pero son amigos                                                                               " name="When &quot;emisor@hotmail.com&quot; quiere enviar solicitud a &quot;receptor@hotmail.com&quot; pero son amigos                                                                               " time="0"/>
+  <testcase classname="Then No envio de solicitud                                                                                " name="Then No envio de solicitud                                                                                " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                             " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                             " time="0"/>
+  <testcase classname="Given Usuario conectado para enviar solicitud                                                                                  " name="Given Usuario conectado para enviar solicitud                                                                                  " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; quiere enviar solicitud a &quot;receptor2@hotmail.com&quot; pero son amigos                                                                                   " name="When &quot;emisor2@hotmail.com&quot; quiere enviar solicitud a &quot;receptor2@hotmail.com&quot; pero son amigos                                                                                   " time="0"/>
+  <testcase classname="Then No envio de solicitud                                                                                    " name="Then No envio de solicitud                                                                                    " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                 " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                 " time="0.016"/>
+  <testcase classname="Given Usuario conectado para enviar solicitud                                                                                        " name="Given Usuario conectado para enviar solicitud                                                                                        " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; quiere enviar solicitud a &quot;receptor@hotmail.com&quot; pero ya tiene solicitudes suyas                                                                                         " name="When &quot;emisor@hotmail.com&quot; quiere enviar solicitud a &quot;receptor@hotmail.com&quot; pero ya tiene solicitudes suyas                                                                                         " time="0"/>
+  <testcase classname="Then Solicitud ya enviada                                                                                          " name="Then Solicitud ya enviada                                                                                          " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                                       " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                                       " time="0"/>
+  <testcase classname="Given Usuario conectado para enviar solicitud                                                                                            " name="Given Usuario conectado para enviar solicitud                                                                                            " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; quiere enviar solicitud a &quot;receptor2@hotmail.com&quot; pero ya tiene solicitudes suyas                                                                                             " name="When &quot;emisor2@hotmail.com&quot; quiere enviar solicitud a &quot;receptor2@hotmail.com&quot; pero ya tiene solicitudes suyas                                                                                             " time="0"/>
+  <testcase classname="Then Solicitud ya enviada                                                                                              " name="Then Solicitud ya enviada                                                                                              " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                           " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                           " time="0"/>
+  <testcase classname="Given Usuario conectado para rechazar                                                                                                   " name="Given Usuario conectado para rechazar                                                                                                   " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; es rechazado por &quot;receptor@hotmail.com&quot;                                                                                                    " name="When &quot;emisor@hotmail.com&quot; es rechazado por &quot;receptor@hotmail.com&quot;                                                                                                    " time="0"/>
+  <testcase classname="Then Rechazar peticion de amistad                                                                                                     " name="Then Rechazar peticion de amistad                                                                                                     " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                                                  " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                                                  " time="0"/>
+  <testcase classname="Given Usuario conectado para rechazar                                                                                                       " name="Given Usuario conectado para rechazar                                                                                                       " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; es rechazado por &quot;receptor2@hotmail.com&quot;                                                                                                        " name="When &quot;emisor2@hotmail.com&quot; es rechazado por &quot;receptor2@hotmail.com&quot;                                                                                                        " time="0"/>
+  <testcase classname="Then Rechazar peticion de amistad                                                                                                         " name="Then Rechazar peticion de amistad                                                                                                         " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                                      " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                                      " time="0"/>
+  <testcase classname="Given Usuario conectado para rechazar                                                                                                             " name="Given Usuario conectado para rechazar                                                                                                             " time="0"/>
+  <testcase classname="When &quot;emisor@hotmail.com&quot; es rechazado por &quot;receptor@hotmail.com&quot; pero no le habia enviado solicitud                                                                                                              " name="When &quot;emisor@hotmail.com&quot; es rechazado por &quot;receptor@hotmail.com&quot; pero no le habia enviado solicitud                                                                                                              " time="0"/>
+  <testcase classname="Then Mensaje de error al rechazo de la peticion                                                                                                               " name="Then Mensaje de error al rechazo de la peticion                                                                                                               " time="0"/>
+  <testcase classname="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                                                            " name="| &quot;emisor@hotmail.com&quot; | &quot;receptor@hotmail.com&quot; |                                                                                                            " time="0"/>
+  <testcase classname="Given Usuario conectado para rechazar                                                                                                                 " name="Given Usuario conectado para rechazar                                                                                                                 " time="0"/>
+  <testcase classname="When &quot;emisor2@hotmail.com&quot; es rechazado por &quot;receptor2@hotmail.com&quot; pero no le habia enviado solicitud                                                                                                                  " name="When &quot;emisor2@hotmail.com&quot; es rechazado por &quot;receptor2@hotmail.com&quot; pero no le habia enviado solicitud                                                                                                                  " time="0"/>
+  <testcase classname="Then Mensaje de error al rechazo de la peticion                                                                                                                   " name="Then Mensaje de error al rechazo de la peticion                                                                                                                   " time="0"/>
+  <testcase classname="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                                                " name="| &quot;emisor2@hotmail.com&quot; | &quot;receptor2@hotmail.com&quot; |                                                                                                                " time="0"/>
+</testsuite>
